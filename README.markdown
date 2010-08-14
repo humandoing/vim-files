@@ -26,6 +26,23 @@ instead of a standalone file at `~/.vimrc`.
 The whole full-on-switch-to-vim thing is a bit new to me, so feel free to mock and/or offer
 advice or improvements as much as you'd like.
 
+ctags
+------------
+I still don't know for sure the best way to work with `tags`, but I know that if I want something
+equivalent to a 'go to declaration' type feature, `tags` are it. The implementation that seems to
+be money for me is 'exuberant ctags', which you can find on SourceForge. I installed it via 
+MacPorts
+
+    sudo port install ctags
+
+After that, I needed to build a tag file, so I did the following (command line):
+
+    cd ~/Work/rails-project-i'm-working-on
+    /opt/local/bin/ctags -R
+
+That built a giant `tags` file in the root of my Rails project, which vim seems to deal with 
+just fine (e.g. by doing something like `:tag my_method_name`).
+
 Ack
 ------------
 You have to actually have ack installed on your system to use this. You can find instructions
