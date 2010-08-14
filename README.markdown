@@ -15,13 +15,13 @@ using git submodules.
 
 .vimrc
 ======================
-So, my actual ~/.vimrc file contains ONLY the following line:
+So, my actual `~/.vimrc` file contains ONLY the following line:
 
     source ~/.vim/vimrc.vim
 
 The reason for this is that I want to keep all the vim config stuff that I would put in my
-~/.vimrc file under source control, which is easiest if I can put it in my ~/.vim directory,
-instead of a standalone file at ~/.vimrc.
+`~/.vimrc` file under source control, which is easiest if I can put it in my `~/.vim` directory,
+instead of a standalone file at `~/.vimrc`.
 
 The whole full-on-switch-to-vim thing is a bit new to me, so feel free to mock and/or offer
 advice or improvements as much as you'd like.
