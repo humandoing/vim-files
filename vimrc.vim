@@ -30,6 +30,14 @@ set expandtab
 set cindent
 set autoindent
 
+" For some reason, (not sure why), vim was always un-indenting my ruby
+" comments when I went to the next line. Some help from someone on
+" StackOverflow (http://stackoverflow.com/questions/191201/indenting-comments-to-match-code-in-vim)
+" suggested the following (which does seem to solve the problem):
+filetype plugin indent on
+syntax enable
+
+
 " Use a 2-space tab
 set softtabstop=2
 set shiftwidth=2
