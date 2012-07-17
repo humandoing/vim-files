@@ -32,7 +32,7 @@ set guifont=BitstreamVeraSansMono-Roman:h14
 color vividchalk
 
 " Key mappings for toggling NerdTree
-map <F2> :NERDTreeToggle<CR>
+map <Leader>q :NERDTreeToggle<CR>
 
 " Key mappings for ack (searching)
 map <Leader>f :Ack<space>
