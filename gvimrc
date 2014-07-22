@@ -1,5 +1,6 @@
-"color
-color vividchalk
+"color vividchalk
+set background=dark
+color solarized
 
 " Use Bistream Vera Sans Mono, size 14 as our font. Font needs to use the PostScript name, which you can find in FontBook
 set guifont=BitstreamVeraSansMono-Roman:h14

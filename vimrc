@@ -29,6 +29,9 @@ set visualbell t_vb=           " Turn off freaking stupid error bells when using
 " Use Bistream Vera Sans Mono, size 14 as our font. Font needs to use the PostScript name, which you can find in FontBook
 set guifont=BitstreamVeraSansMono-Roman:h14
 
+"let g:solarized_termcolors=256
+"set background=dark
+"color solarized
 color vividchalk
 
 " Key mappings for toggling NerdTree
