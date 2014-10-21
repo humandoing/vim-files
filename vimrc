@@ -33,6 +33,7 @@ set guifont=BitstreamVeraSansMono-Roman:h14
 "set background=dark
 "color solarized
 color vividchalk
+"color molokai
 
 " Key mappings for toggling NerdTree
 map <Leader>q :NERDTreeToggle<CR>
